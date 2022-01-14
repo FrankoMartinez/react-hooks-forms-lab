@@ -13,7 +13,7 @@ function ItemForm(props) {
        category: itemCategory
       }
       props.onItemFormSubmit(newItem)
-      event.target.reset()
+      // event.target.reset()
   }
 
   return (
